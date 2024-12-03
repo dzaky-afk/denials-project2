@@ -1,0 +1,246 @@
+/* Styling untuk keseluruhan tampilan */
+.detail-produk {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produk-gambar-container {
+  width: 40%;
+}
+
+.produk-gambar {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produk-info {
+  width: 55%;
+  padding-left: 20px;
+}
+
+.produk-nama {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.produk-harga {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+.produk-deskripsi {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.produk-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.beli-sekarang {
+  background-color: #27ae60;
+  color: white;
+}
+
+.tambah-keranjang {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Styling untuk form pembelian */
+.form-pembelian {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #2ecc71;
+}
+
+/* Virtual account info */
+.virtual-account {
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.virtual-account p {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.payment-success {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-success h2 {
+  font-size: 1.8rem;
+  color: #2ecc71;
+}
+
+.payment-success p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.lanjut-ke-resi-button {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lanjut-ke-resi-button:hover {
+  background-color: #2980b9;
+}
+
+.ulasan {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ulasan-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ulasan-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.submit-ulasan-button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-ulasan-button:hover {
+  background-color: #2980b9;
+}
+
+/* Animasi Truk */
+.truck-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.truck-image {
+  width: 100px;
+  animation: moveTruck 3s linear infinite;
+}
+
+@keyframes moveTruck {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+/* Styling untuk payment success */
+.payment-success {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-success h2 {
+  font-size: 1.8rem;
+  color: #2ecc71;
+}
+
+.payment-success p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.lanjut-ke-resi-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lanjut-ke-resi-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,57 @@
+/* CSS for Route transition animation */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+/* Additional styling for the login animation */
+.login-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.login-success.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* CSS untuk animasi transisi halaman */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

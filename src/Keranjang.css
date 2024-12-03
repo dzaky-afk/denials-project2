@@ -1,0 +1,70 @@
+.keranjang {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.keranjang-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.keranjang-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.keranjang-item div {
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.keranjang-item p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+.checkout-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}
+
+.total-harga {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}

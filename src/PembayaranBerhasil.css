@@ -1,0 +1,73 @@
+.pembayaran-berhasil {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+.container .success-icon {
+    font-size: 3rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.detail-pembelian {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+}
+
+.produk-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.kembali-button {
+    margin-top: 40px;
+    background-color: #FF5722;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.kembali-button:hover {
+    background-color: #e64a19;
+}
+
+button.kembali-button:active {
+    transform: scale(0.98);
+}
