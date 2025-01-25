@@ -1,0 +1,101 @@
+/* Admin.css */
+.Admin {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .Admin h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .Admin button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .Admin button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Admin form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .Admin form input,
+  .Admin form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .Admin form input[type="file"] {
+    padding: 5px;
+  }
+  
+  .Admin form button {
+    background-color: #28a745;
+    margin-right: 10px;
+  }
+  
+  .Admin form button:hover {
+    background-color: #218838;
+  }
+  
+  .Admin table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .Admin table th,
+  .Admin table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .Admin table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .Admin table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .Admin table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .Admin table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .Admin table button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .Admin table button:last-child:hover {
+    background-color: #c82333;
+  }
